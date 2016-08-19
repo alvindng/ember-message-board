@@ -1,7 +1,21 @@
-# Messaging-board
+# _Message Board_
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+#### _Individual JavaScript Epicodus exercise - JavaScript week 3, 8.19.16._
+
+#### By _**Alvin Ng**_
+
+## Description
+**Message Board**
+
+Website showcasing everything I learned in Epicodus week 3 of JavaScript. This application is to incorporate all the concepts taught this week by creating a message board application. Users should be able to submit a question and other users can respond with answers.
+
+* Questions should have the content of the question itself, an author and additional notes.
+* Answers should have the content of the answer and the author.
+* Include a header and/or navbar that appears on all pages containing the name of your site and a link to the home page.
+* List all questions on the homepage, with only the question and the name of the author showing.
+* Users should be able to click on a question to view additional information.
+* Allow users to add and edit questions.
+* Allow users to add answers to a question. Answers should be added and viewed on the same page as the question they respond to.
 
 ## Prerequisites
 
@@ -15,7 +29,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone https://github.com/alvindng/ember-message-board`
 * change into the new directory
 * `npm install`
 * `bower install`
@@ -51,3 +65,7 @@ Specify what it takes to deploy your app.
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
+License
+-------
+
+  MIT License. Copyright &copy; 2016
