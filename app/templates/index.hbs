@@ -1,11 +1,15 @@
 <h1>Questions:</h1>
-<ul>
-  {{#each model.questions as |question|}}
-     {{question-tile question=question}}
-  {{/each}}
-</ul>
 
-{{new-question saveQuestion="saveQuestion"}}
+<div class="well">
+  <ul>
+    {{#each model.questions as |question|}}
+    {{question-tile question=question}}
+    {{/each}}
+  </ul>
+  <div class="container">
+    {{new-question saveQuestion="saveQuestion"}}
+  </div>
+</div>
 
 {{#link-to 'about'}}About{{/link-to}}
 {{#link-to 'contact'}}Click here to contact us.{{/link-to}}
