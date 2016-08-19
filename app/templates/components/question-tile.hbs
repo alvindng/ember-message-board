@@ -1,2 +1,1 @@
-<li>{{question.query}} {{question.author}}</li>
-{{update-question question=question update='update'}}
+<li>{{#link-to 'question' question.id}}{{question.query}} {{question.author}}{{/link-to}}</li>
