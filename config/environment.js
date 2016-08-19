@@ -12,6 +12,7 @@ module.exports = function(environment) {
         // e.g. 'with-controller': true
       }
     },
+    
     firebase: {
       apiKey: "AIzaSyDeCvcQ7gQHZ5qfh459boJrrJKHBMlCRwI",
       authDomain: "message-board-62ff8.firebaseapp.com",
