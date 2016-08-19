@@ -1,12 +1,14 @@
-<h2>{{model.author}}'s question, "{{model.query}}" </h2>
-<h5>Notes: {{model.notes}}</h5>
+<div class="well">
+  {{question-detail question=model destroyQuestion="destroyQuestion"}}
+  <br>
+  {{update-question question=model update='update'}}
+</div>
 
-{{update-question question=model update='update'}}
-{{question-detail question=model destroyQuestion="destroyQuestion"}}
+<div class="well">
+  <h3>Answers:</h3>
+  <ul>
+    {{answer-tile question=model }}
+  </ul>
 
-<h3>Answers:</h3>
-<ul>
-  {{answer-tile question=model }}
-</ul>
-
-{{new-answer question=model saveAnswer='saveAnswer'}}
+  {{new-answer question=model saveAnswer='saveAnswer'}}
+</div>

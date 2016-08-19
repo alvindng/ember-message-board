@@ -1,7 +1,12 @@
 .jumbotron {
   text-align: center;
+  color: black;
 }
 
 body {
   background-color: #ccffcc;
+}
+
+.well {
+  background-color: #ffe6ff;
 }
