@@ -1,8 +1,12 @@
-<h2>More information about {{model.query}}'s {{model.author}}</h2>
+<h2>{{model.author}}'s question, "{{model.query}}" </h2>
+<h5>Notes: {{model.notes}}</h5>
 
 {{update-question question=model update='update'}}
 {{question-detail question=model destroyQuestion="destroyQuestion"}}
 
-{{answer-tile question=model }}
+<h3>Answers:</h3>
+<ul>
+  {{answer-tile question=model }}
+</ul>
 
-{{new-answer question=model save2='save3'}}
+{{new-answer question=model saveAnswer='saveAnswer'}}

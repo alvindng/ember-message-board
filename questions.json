@@ -6,5 +6,12 @@
     "query": "French Fries or Burgers?",
     "author": "Ronald McDonald",
     "notes": "Starving"
+  }],
+  "answers": [{
+    "response": "Portland",
+    "author": "George Costanza"
+  }, {
+    "response": "Cheeseburgers FTW",
+    "author": "B. King"
   }]
 }

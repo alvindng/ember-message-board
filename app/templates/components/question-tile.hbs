@@ -1,1 +1,6 @@
-<li>{{#link-to 'question' question.id}}{{question.query}} {{question.author}}{{/link-to}}</li>
+<li>
+  {{#link-to 'question' question.id}}
+  <h3>{{question.query}}</h3>
+  <h4>{{question.author}}</h4>
+  {{/link-to}}
+</li>
