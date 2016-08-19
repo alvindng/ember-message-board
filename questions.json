@@ -1,0 +1,10 @@
+{ "questions": [{
+    "query": "Where am I?",
+    "author": "Marco Polo",
+    "notes": "I should buy a map"
+  }, {
+    "query": "French Fries or Burgers?",
+    "author": "Ronald McDonald",
+    "notes": "Starving"
+  }]
+}
