@@ -1,13 +1,13 @@
 # _Message Board_
 
-#### _Individual JavaScript Epicodus exercise - JavaScript week 3, 8.19.16._
+#### _Individual JavaScript Epicodus exercise - JavaScript week 3 & 4, 8.26.16._
 
 #### By _**Alvin Ng**_
 
 ## Description
 **Message Board**
 
-Website showcasing everything I learned in Epicodus week 3 of JavaScript. This application is to incorporate all the concepts taught this week by creating a message board application. Users should be able to submit a question and other users can respond with answers.
+Website showcasing everything I learned in Epicodus week 3 and 4 of JavaScript. This application is to incorporate all the concepts taught this week by creating a message board application. Users should be able to submit a question and other users can respond with answers.
 
 * Questions should have the content of the question itself, an author and additional notes.
 * Answers should have the content of the answer and the author.
@@ -16,6 +16,7 @@ Website showcasing everything I learned in Epicodus week 3 of JavaScript. This a
 * Users should be able to click on a question to view additional information.
 * Allow users to add and edit questions.
 * Allow users to add answers to a question. Answers should be added and viewed on the same page as the question they respond to.
+* Implement at least one computed property, helper, and service.
 
 ## Prerequisites
 
