@@ -10,7 +10,11 @@
     {{new-question saveQuestion="saveQuestion"}}
   </div>
 </div>
-
-{{favorite-tile}}
+<h3>Your Favorite Questions:</h3>
+<div class="well">
+  <ul>
+    {{favorite-tile}}
+  </ul>
+</div>
 <p>{{#link-to 'about'}}About{{/link-to}}</p>
 <p>{{#link-to 'contact'}}Click here to contact us.{{/link-to}}</p>
